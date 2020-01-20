@@ -1,10 +1,4 @@
-import _ from 'lodash';
-  function component() {
-    const element = document.createElement('div');
+import './assets/styles/app.scss';
 
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
-    return element;
-  }
-
-  document.body.appendChild(component());
+import './assets/images/logo-main-small.webp';
+import './assets/images/art-home-yora.jpg';
