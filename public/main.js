@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"assets/images/art-home-yora.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/art-home-yora.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/art-home-yora.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/art-home-yora.jpg?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"assets/images/logo-main-small.webp\");\n\n//# sourceURL=webpack:///./src/assets/images/logo-main-small.webp?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/logo-main-small.webp\");\n\n//# sourceURL=webpack:///./src/assets/images/logo-main-small.webp?");
 
 /***/ }),
 

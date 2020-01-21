@@ -21,14 +21,16 @@ module.exports = {
         test: /\.(png|svg|jpg|gif|webp)$/,
         loader: 'file-loader',
         options: {
-          name: 'assets/images/[name].[ext]',
+          name: '[name].[ext]',
+          outputPath: 'assets/images',
+          publicPath: './images'
         },
       }
     ],
   },
   plugins: [
     new MiniCssExtractPlugin({
-        filename: 'app.css',
+        filename: 'assets/app.css',
     }),
   ]
 };
