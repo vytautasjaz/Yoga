@@ -1,103 +1,191 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900&display=swap');@import 'variables.scss';
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import 'nav.scss';
 
 body {
     margin: 0;
+}
+
+h1 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    color: $purple;
+    margin: 0;
 }
 
-.nav {
-        &__menu {
-            position: sticky;
-            z-index: 1;
-            height: 80px;
-            ul {
-                list-style-type: none;
-                display: flex;
-                align-items: center;
-            }
-            li {
-                display: block;
-                padding-right: 10px
-            }
-            a {
-                padding: 10px 20px;
-                text-decoration: none;
-                color: #2e2b36;
-            }
-            a:hover {
-                text-decoration: none;
-                color: white;
-                background-color: #2e2b36;
-            }
-        }
-
-        &__logo {
-            padding: 0 20px 0 0;
-        }
-        &__dropdown {
-            &:hover {
-                ul {
-                    display: block;
-                }
-            } 
-            li  {
-                padding: 10px 100px 10px 0px;
-                background-color: #2e2b36;
-                a  {
-                    color: white;
-                    font-size: 15px;
-                    }
-                a:hover{
-                        color: #979fa3;
-                    }
-            }   
-        }
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    color: $purple;
+    margin: 0;
 }
 
-ul.nav{
-    &__dropdown {
-        &__content {
-            display: none;
-            position: absolute;
-            padding: 0;
-            margin-top: 10px;
-        }
-    }
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+span {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    line-height: 30px;
 }
 
 .head {
     width: 100%;
-    height: 100vh   ;
+    height: 100vh;
     position: fixed;
     top:0;
     display: flex;
     justify-content: flex-end;
-    background-image: url('../images/art-home-yora.jpg')    ;
+    background-image: url('../images/art-home-yora.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-
-        &__greeting {
-            width: 200px;
-            height: 200px;
-            padding: 200px 80px 80px 80px;
-            background-color: yellow;
+        &__overlay {
+            width: 95%;
+            height: 100%;
             display: flex;
-            
-                h1 {
-                    color: yellow   ;
+            justify-content: flex-end;
+        } 
+        &__greeting {
+            width: 410px;
+            height: 100%;
+            padding: 200px 25px 25px 80px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+                span {
+                    font-size: 20px;
+                    font-weight: 400;
+                    color: $purple;
+                    margin: 20px 0;
+                }
+        }
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    color: $purple;
+    border: 1.5px solid $purple;
+        a {
+            font-size: 16px;
+            color: $purple;
+            text-decoration: none;
+            padding: 15px;
+        }
+        &:hover {
+            background-color: $purple;
+                a  {
+                    color: white;
                 }
 
         }
+    
 }
 
 .welcome {
     position: relative;
     width: 100%;
     height: 300px;
-    padding-top: 70px;
-    padding-bottom: 50px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 30px 0;
     margin-top: 100vh;
     background-color: white;
+        &__left {
+            width: 27%;
+            padding: 15px;
+        }
+        &__right {
+            width: 67%;
+            padding: 15px;
+            font-family: 'Lato', sans-serif;
+            font-size: 17px;
+            line-height: 30px;
+            font-weight: 400;
+            color: $grey_1;
+        }
+}
+
+.classes {
+    position: relative;
+    padding-top: 50px;
+    background-color: $purple_light;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+        &__header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+                h2 {
+                    margin-bottom: 20px;
+                }
+                span {
+                    font-size: 17px;
+                    line-height: 30px;
+                    font-weight: 400;
+                    margin-bottom: 30px; 
+                }
+        }
+        &__content {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+                &__image {
+                    width: 25%;
+                    height: 350px;
+                    background-position-x:50%;
+                    background-position-y:50%;
+                    background-size: cover;
+                        &__1 {
+                            background-image: url('../images/y086.jpg');                 
+                        }
+                        &__2 {
+                            background-image: url('../images/y080.jpg');
+                        }
+                        &__3 {
+                            background-image: url('../images/y006.jpg');
+                        }
+                        &__4 {
+                            background-image: url('../images/y093.jpg');
+                        }
+                }
+                &__text {
+                    width: 25%;
+                   // padding: 20px;
+                    margin: 0;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: $purple;
+                    color: white;
+                        h3 {
+                            width: 80%;
+                            align: left;
+                            margin-bottom: 15px;
+                            line-height: 34px;
+                        }
+                        span {
+                            width: 80%;
+                            color: white;
+                            align: left;
+                        }
+                }
+                &__images {
+                    width: 25%;
+                }
+        }
 }

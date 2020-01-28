@@ -1,0 +1,66 @@
+.nav {
+    &__menu {
+        font-family: 'Montserrat', sans-serif;
+        position: sticky;
+        z-index: 1;
+        height: 80px;
+        ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+        }
+        li {
+            display: block;
+            padding-right: 10px
+        }
+        a {
+            padding: 10px 20px;
+            text-decoration: none;
+            color: $purple;
+        }
+        a:hover {
+            text-decoration: none;
+            color: white;
+            background-color: $purple;
+        }
+    }
+
+    &__active {
+        text-decoration: none;
+        color: white !important;
+        background-color: $purple;
+    }
+
+    &__logo {
+        padding: 0 20px 0 0;
+    }
+    &__dropdown {
+        &:hover {
+            ul {
+                display: block;
+            }
+        } 
+        li  {
+            padding: 10px 100px 10px 0px;
+            background-color: $purple;
+            a  {
+                color: white;
+                font-size: 15px;
+                }
+            a:hover{
+                    color: #979fa3;
+                }
+        }   
+    }
+}
+
+ul.nav{
+&__dropdown {
+    &__content {
+        display: none;
+        position: absolute;
+        padding: 0;
+        margin-top: 10px;
+    }
+}
+}
