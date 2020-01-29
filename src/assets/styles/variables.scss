@@ -5,4 +5,18 @@ $purple_light: #ececec;
 $grey_1: #5e5e5e;
 $grey_2: #a9a9a9;
 $grey_3: #979fa3;
+$grey_light: #fbfafa;
 $purple_light_1: #615f69;
+
+@mixin day_box($day_bg, $day_font) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 80px;
+    background-color: $day_bg;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: $day_font;
+    border-radius: 25px;
+}

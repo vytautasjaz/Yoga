@@ -81,7 +81,7 @@ span {
   position: fixed;
   top: 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   background-image: url(./images/art-home-yora.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -89,7 +89,7 @@ span {
   background-attachment: fixed; }
   .head__overlay {
     width: 95%;
-    height: 100%;
+    max-width: 1800px;
     display: flex;
     justify-content: flex-end; }
   .head__greeting {
@@ -109,14 +109,14 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px;
   color: #2e2b36;
   border: 1.5px solid #2e2b36; }
   .button a {
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #2e2b36;
     text-decoration: none;
-    padding: 15px; }
+    padding: 15px 30px; }
   .button:hover {
     background-color: #2e2b36; }
     .button:hover a {
@@ -124,25 +124,28 @@ span {
 
 .welcome {
   position: relative;
-  width: 100%;
-  height: 300px;
-  z-index: 1000;
   display: flex;
   justify-content: center;
+  z-index: 1000;
   padding: 50px 0 30px 0;
   margin-top: 100vh;
   background-color: white; }
-  .welcome__left {
-    width: 27%;
-    padding: 15px; }
-  .welcome__right {
-    width: 67%;
-    padding: 15px;
-    font-family: 'Lato', sans-serif;
-    font-size: 17px;
-    line-height: 30px;
-    font-weight: 400;
-    color: #5e5e5e; }
+  .welcome__content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px; }
+    .welcome__content__left {
+      width: 27%;
+      padding: 15px; }
+    .welcome__content__right {
+      width: 67%;
+      padding: 15px;
+      font-family: 'Lato', sans-serif;
+      font-size: 17px;
+      line-height: 30px;
+      font-weight: 400;
+      color: #5e5e5e; }
 
 .classes {
   position: relative;
@@ -201,4 +204,150 @@ span {
         align: left; }
     .classes__content__images {
       width: 25%; }
+  .classes__footer {
+    padding: 50px;
+    display: flex;
+    justify-content: center; }
+
+.timetable {
+  position: relative;
+  width: 100%;
+  background-color: #fbfafa;
+  display: flex;
+  justify-content: center; }
+  .timetable__left {
+    width: 67%;
+    max-width: 800px;
+    padding: 25px 25px 50px 25px; }
+    .timetable__left__header h2 {
+      margin-bottom: 30px; }
+    .timetable__left__right {
+      width: 33%;
+      max-width: 400px; }
+  .timetable .calendar {
+    border-color: #e8e8e8;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: rgba(0, 0, 0, 0.016) 0px 2px 0px 0px;
+    display: flex;
+    font-size: 17px;
+    font-weight: 400;
+    height: 720px;
+    line-height: 30px;
+    width: 780px; }
+    .timetable .calendar__month {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 60%;
+      padding: 25px; }
+      .timetable .calendar__month__corner {
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        padding: 5px 10px;
+        border-left-color: #e8e8e8;
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-bottom-color: #e8e8e8;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-left-radius: 6px; }
+        .timetable .calendar__month__corner:hover {
+          background-color: #ececec; }
+        .timetable .calendar__month__corner span {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 12px;
+          color: #979fa3; }
+    .timetable .calendar h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      margin: 30px 0 20px 0;
+      padding: 20px 0 0 0; }
+    .timetable .calendar__table__head {
+      display: flex; }
+    .timetable .calendar__table__row {
+      display: flex; }
+    .timetable .calendar__day {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 50px;
+      height: 80px;
+      background-color: #fbfafa;
+      font-family: 'Lato', sans-serif;
+      font-size: 14px;
+      color: #4d4d4d;
+      border-radius: 25px; }
+      .timetable .calendar__day__head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 80px;
+        background-color: #fbfafa;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        color: #4d4d4d;
+        border-radius: 25px;
+        font-weight: 700; }
+      .timetable .calendar__day__null {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 80px;
+        background-color: #fbfafa;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        color: #cacaca;
+        border-radius: 25px; }
+        .timetable .calendar__day__null:hover {
+          background-color: #eeeeee; }
+      .timetable .calendar__day__event {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 80px;
+        background-color: #fbfafa;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        color: #4d4d4d;
+        border-radius: 25px;
+        position: relative; }
+        .timetable .calendar__day__event:hover {
+          background-color: #a9a9a9;
+          color: white; }
+          .timetable .calendar__day__event:hover:after {
+            background-color: #eeeeee; }
+        .timetable .calendar__day__event:after {
+          content: '';
+          position: absolute;
+          width: 6px;
+          height: 6px;
+          bottom: 6px;
+          background-color: #a9a9a9;
+          border-radius: 50%; }
+      .timetable .calendar__day__today {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 80px;
+        background-color: #a9a9a9;
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        color: white;
+        border-radius: 25px; }
+      .timetable .calendar__day:hover {
+        background-color: #eeeeee; }
+    .timetable .calendar__events {
+      width: 40%;
+      border-left-color: #e8e8e8;
+      border-left-style: solid;
+      border-left-width: 1px; }
 

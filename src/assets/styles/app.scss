@@ -41,7 +41,7 @@ span {
     position: fixed;
     top:0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background-image: url('../images/art-home-yora.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@ span {
     background-attachment: fixed;
         &__overlay {
             width: 95%;
-            height: 100%;
+            max-width: 1800px;
             display: flex;
             justify-content: flex-end;
         } 
@@ -73,14 +73,14 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
     color: $purple;
     border: 1.5px solid $purple;
         a {
+            font-family: 'Montserrat', sans-serif;
             font-size: 16px;
             color: $purple;
             text-decoration: none;
-            padding: 15px;
+            padding: 15px 30px;
         }
         &:hover {
             background-color: $purple;
@@ -94,27 +94,31 @@ span {
 
 .welcome {
     position: relative;
-    width: 100%;
-    height: 300px;
-    z-index: 1000;
     display: flex;
     justify-content: center;
+    z-index: 1000;
     padding: 50px 0 30px 0;
     margin-top: 100vh;
     background-color: white;
-        &__left {
-            width: 27%;
-            padding: 15px;
-        }
-        &__right {
-            width: 67%;
-            padding: 15px;
-            font-family: 'Lato', sans-serif;
-            font-size: 17px;
-            line-height: 30px;
-            font-weight: 400;
-            color: $grey_1;
-        }
+        &__content {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            max-width: 1200px;
+                &__left {
+                    width: 27%;
+                    padding: 15px;
+                }
+                &__right {
+                    width: 67%;
+                    padding: 15px;
+                    font-family: 'Lato', sans-serif;
+                    font-size: 17px;
+                    line-height: 30px;
+                    font-weight: 400;
+                    color: $grey_1;
+                }
+        }       
 }
 
 .classes {
@@ -188,4 +192,137 @@ span {
                     width: 25%;
                 }
         }
+        &__footer {
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+        }
+}
+
+.timetable {
+    position: relative;
+    width:100%;
+    background-color: $grey_light;
+    display: flex;
+    justify-content: center;
+        &__left {
+            width: 67%;
+            max-width: 800px;
+            padding: 25px 25px 50px 25px;
+            &__header {
+                h2 { 
+                   margin-bottom: 30px; 
+            }
+            
+        }
+        &__right {
+            width: 33%;
+            max-width: 400px;
+        }
+}
+
+.calendar {
+    border-color:rgb(232, 232, 232);
+    border-style:solid;
+    border-width:1px;                
+    box-shadow:rgba(0, 0, 0, 0.016) 0px 2px 0px 0px;
+    display:flex;
+    font-size:17px;
+    font-weight:400;
+    height:720px;
+    line-height:30px;
+    width:780px;      
+        &__month {
+            position: relative;
+            display: flex;
+            flex-direction: column;;
+            align-items: center;
+            width: 60%;
+            padding: 25px;
+            &__corner {
+                position: absolute;
+                display: block;
+                top: 0;
+                right: 0;
+                padding: 5px 10px;
+                border-left-color:rgb(232, 232, 232);
+                border-left-style:solid;
+                border-left-width:1px;
+                border-bottom-color:rgb(232, 232, 232);
+                border-bottom-style:solid;
+                border-bottom-width:1px;
+                border-bottom-left-radius: 6px;
+                    &:hover {
+                        background-color: $purple_light;
+                    }
+                    span {
+                        font-family: 'Montserrat', sans-serif;
+                        font-size: 12px;
+                        color: rgb(151, 159, 163);
+                    }
+            }
+        }
+        h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 22px;
+            font-weight: 700;
+            margin: 30px 0 20px 0;
+            padding: 20px 0 0 0;
+        }
+        &__table {
+
+
+            &__head {
+                display: flex;
+            }
+            &__row {
+                display: flex;
+            }
+        }
+        &__day { 
+            @include day_box ($grey_light, #4d4d4d);
+            &__head {
+                @include day_box ($grey_light, #4d4d4d);
+                font-weight: 700;
+            }
+            &__null {
+                @include day_box ($grey_light, #cacaca);
+                &:hover {
+                    background-color: #eeeeee;  
+                }
+            }
+            &__event {
+                @include day_box ($grey_light, #4d4d4d);
+                position: relative;
+                &:hover {
+                    background-color: $grey_2;
+                    color: white;
+                    &:after{
+                        background-color: #eeeeee;
+                    }
+                }
+                &:after{
+                    content: '';
+                    position: absolute;
+                    width: 6px;
+                    height: 6px;
+                    bottom: 6px;
+                    background-color: $grey_2;
+                    border-radius: 50%;
+                }
+            }
+            &__today {
+                @include day_box ($grey_2, white);
+            }
+            &:hover {
+                background-color: #eeeeee;
+            }
+        }
+        &__events {
+            width: 40%;
+            border-left-color:rgb(232, 232, 232);
+            border-left-style:solid;
+            border-left-width:1px; 
+        }
+    }
 }
