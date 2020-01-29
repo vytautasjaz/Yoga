@@ -347,7 +347,61 @@ span {
         background-color: #eeeeee; }
     .timetable .calendar__events {
       width: 40%;
+      padding: 40px;
       border-left-color: #e8e8e8;
       border-left-style: solid;
-      border-left-width: 1px; }
+      border-left-width: 1px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #171c24; }
+      .timetable .calendar__events h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 11px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        margin: 0 0 14px 0; }
+      .timetable .calendar__events h3 {
+        margin: 0 auto 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 11px;
+        font-weight: 300;
+        letter-spacing: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 46px;
+        height: 46px;
+        color: #979fa3;
+        border: 1px solid;
+        border-radius: 50px;
+        border-color: #979fa3; }
+      .timetable .calendar__events__event {
+        width: 100%;
+        display: flex;
+        padding: 25px 0 5px 0;
+        border-top-color: #efefef;
+        border-top-style: solid;
+        border-top-width: 1px; }
+        .timetable .calendar__events__event:hover {
+          background-color: #eeeeee; }
+        .timetable .calendar__events__event img {
+          padding-right: 10px;
+          width: 65px;
+          height: 65px; }
+        .timetable .calendar__events__event__info {
+          display: flex;
+          flex-direction: column; }
+          .timetable .calendar__events__event__info span {
+            margin: 0;
+            color: #979fa3;
+            font-family: 'Lato', sans-serif;
+            font-size: 12px;
+            line-height: 12px; }
+          .timetable .calendar__events__event__info a {
+            text-decoration: none;
+            color: #494949;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 13px;
+            font-weight: 700; }
 
