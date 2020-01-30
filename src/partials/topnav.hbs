@@ -1,5 +1,5 @@
 <nav>
-    <div class="nav__menu">
+    <div class="nav__menu" id="nav">
         <ul>
             <li><img src="./assets/images/logo-main-small.webp" class="nav__logo" alt=""></li>
             <li>
@@ -33,3 +33,18 @@
         </ul>
     </div>
 </nav>
+
+<script type="text/javascript">
+    var lastScrollTop = 0;
+        navbar = document.getElementById("nav");
+    window.addEventListener("scroll", function(){
+        var scrollTop = window.pageYOffset || document
+            .documentElement.scrollTop;
+            if (scrollTop > lastScrollTop){
+                navbar.style.top="-100px";
+            } else {
+                navbar.style.top="0";
+            }
+            lastScrollTop = scrollTop;
+    })
+</script>
