@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Lato&display=swap);
+@media (max-width: 800px) {
+  .nav__menu {
+    display: none; } }
+
 .nav__menu {
   font-family: 'Montserrat', sans-serif;
   position: fixed;
@@ -7,8 +11,8 @@
   transition: 0.8s;
   background-color: rgba(255, 255, 255, 0.35);
   z-index: 2;
-  height: 100px;
-  width: 100%; }
+  width: 100%;
+  height: 100px; }
   .nav__menu ul {
     list-style-type: none;
     display: flex;
@@ -54,106 +58,6 @@ ul.nav__dropdown__content {
   padding: 0;
   margin-top: 10px; }
 
-body {
-  margin: 0; }
-
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 44px;
-  font-weight: 400;
-  color: #2e2b36;
-  margin: 0; }
-
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 34px;
-  font-weight: 400;
-  color: #2e2b36;
-  margin: 0; }
-
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  margin: 0; }
-
-span {
-  font-family: 'Lato', sans-serif;
-  font-size: 17px;
-  line-height: 30px; }
-
-.head {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  background-image: url(./images/art-home-yora.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; }
-  .head__overlay {
-    width: 95%;
-    max-width: 1800px;
-    display: flex;
-    justify-content: flex-end; }
-  .head__greeting {
-    width: 410px;
-    height: 100%;
-    padding: 200px 25px 25px 80px;
-    display: flex;
-    flex-direction: column;
-    position: absolute; }
-    .head__greeting span {
-      font-size: 20px;
-      font-weight: 400;
-      color: #2e2b36;
-      margin: 20px 0; }
-
-.button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #2e2b36;
-  border: 1.5px solid #2e2b36; }
-  .button a {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: #2e2b36;
-    text-decoration: none;
-    padding: 15px 30px; }
-  .button:hover {
-    background-color: #2e2b36; }
-    .button:hover a {
-      color: white; }
-
-.welcome {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  z-index: 1;
-  padding: 50px 0 30px 0;
-  margin-top: 100vh;
-  background-color: white; }
-  .welcome__content {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    max-width: 1200px; }
-    .welcome__content__left {
-      width: 27%;
-      padding: 15px; }
-    .welcome__content__right {
-      width: 67%;
-      padding: 15px;
-      font-family: 'Lato', sans-serif;
-      font-size: 17px;
-      line-height: 30px;
-      font-weight: 400;
-      color: #5e5e5e; }
-
 .classes {
   position: relative;
   padding-top: 50px;
@@ -177,9 +81,15 @@ span {
     display: flex;
     flex-wrap: wrap;
     width: 100%; }
+    .classes__content__block {
+      display: flex;
+      flex: 1;
+      flex-wrap: wrap;
+      flex-direction: row;
+      min-width: 400px; }
     .classes__content__image {
-      width: 25%;
-      height: 350px;
+      flex: 1;
+      height: 400px;
       background-position-x: 50%;
       background-position-y: 50%;
       background-size: cover; }
@@ -192,7 +102,7 @@ span {
       .classes__content__image__4 {
         background-image: url(./images/y093.jpg); }
     .classes__content__text {
-      width: 25%;
+      flex: 1;
       margin: 0;
       display: flex;
       flex-direction: column;
@@ -412,14 +322,283 @@ span {
             font-size: 13px;
             font-weight: 700; }
 
+.gallery {
+  position: relative;
+  padding-top: 50px;
+  background-color: #fbfafa;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .gallery__headder {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; }
+    .gallery__headder h2 {
+      margin-bottom: 20px; }
+    .gallery__headder span {
+      color: #5e5e5e;
+      font-size: 17px;
+      line-height: 30px;
+      font-weight: 400;
+      margin-bottom: 30px; }
+  .gallery__content {
+    display: flex;
+    flex-wrap: wrap; }
+    .gallery__content__image {
+      flex: 1;
+      min-width: 150px;
+      max-width: 250px;
+      position: relative;
+      display: inline-block;
+      overflow: hidden; }
+      .gallery__content__image:hover img {
+        transition: all 2s ease-in-out;
+        transform: scale(1.2); }
+      .gallery__content__image img {
+        width: 100%;
+        display: block;
+        transition: all 2s ease-in-out; }
+      .gallery__content__image__overlay {
+        position: absolute;
+        display: none;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        z-index: 10;
+        opacity: 0.5;
+        background-repeat: no-repeat;
+        background-size: 35px 35px;
+        background-position: center;
+        background-image: url(./images/symbol-plus.svg); }
+
+.gallery__content__image:hover .gallery__content__image__overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; }
+
+body {
+  margin: 0; }
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 44px;
+  font-weight: 400;
+  color: #2e2b36;
+  margin: 0; }
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  color: #2e2b36;
+  margin: 0; }
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0; }
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0; }
+
+span {
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  line-height: 30px; }
+
+.head {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  background-image: url(./images/art-home-yora.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .head__overlay {
+    width: 95%;
+    max-width: 1800px;
+    display: flex;
+    justify-content: flex-end; }
+  .head__greeting {
+    width: 410px;
+    height: 100%;
+    padding: 200px 25px 25px 80px;
+    display: flex;
+    flex-direction: column;
+    position: absolute; }
+    .head__greeting span {
+      font-size: 20px;
+      font-weight: 400;
+      color: #2e2b36;
+      margin: 20px 0; }
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2e2b36;
+  border: 1.5px solid #2e2b36; }
+  .button a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #2e2b36;
+    text-decoration: none;
+    padding: 15px 30px; }
+  .button:hover {
+    background-color: #2e2b36; }
+    .button:hover a {
+      color: white; }
+
+.welcome {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  padding: 50px 0 30px 0;
+  margin-top: 100vh;
+  background-color: white; }
+  .welcome__content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px; }
+    .welcome__content__left {
+      width: 27%;
+      padding: 15px; }
+    .welcome__content__right {
+      width: 67%;
+      padding: 15px;
+      font-family: 'Lato', sans-serif;
+      font-size: 17px;
+      line-height: 30px;
+      font-weight: 400;
+      color: #5e5e5e; }
+
 .studio {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 400px;
+  height: 500px;
   background-image: url(./images/y048.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   z-index: 100; }
+  .studio__title {
+    width: 430px;
+    height: 200px;
+    background-color: #2e2b36;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .studio__title h1 {
+      text-align: center;
+      color: white; }
+    .studio__title h3 {
+      padding-top: 15px;
+      color: #a9a9a9; }
+
+.teachers {
+  position: relative;
+  width: 100%;
+  background-color: #fbfafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .teachers__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    .teachers__header span {
+      padding-top: 20px;
+      color: #5e5e5e; }
+  .teachers__teachers {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  .teachers__teacher {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; }
+    .teachers__teacher img {
+      transition: all 1s ease-in-out;
+      height: 150px;
+      border-radius: 50%; }
+      .teachers__teacher img:hover {
+        transform: scale(1.1); }
+    .teachers__teacher__social img {
+      height: 30px; }
+    .teachers__teacher a {
+      text-decoration: none; }
+    .teachers__teacher h4 {
+      color: black;
+      padding-top: 10px; }
+    .teachers__teacher span {
+      font-size: 15px;
+      color: #a9a9a9;
+      padding-bottom: 10px;
+      text-align: center; }
+  .teachers__button {
+    margin: 50px; }
+
+.offer {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap; }
+  .offer__left {
+    flex: 1;
+    min-width: 300px;
+    padding: 50px;
+    color: white;
+    background-color: #2e2b36; }
+    .offer__left h3 {
+      font-size: 34px;
+      margin-bottom: 30px; }
+    .offer__left span {
+      display: block;
+      margin-bottom: 30px; }
+    .offer__left__list {
+      display: flex;
+      flex-wrap: wrap; }
+      .offer__left__list__half {
+        flex: 1;
+        min-width: 200px; }
+        .offer__left__list__half ul {
+          padding: 0;
+          margin: 0; }
+        .offer__left__list__half li {
+          font-family: 'Lato', sans-serif;
+          font-size: 17px;
+          line-height: 30px;
+          padding: 5px;
+          margin-left: 20px;
+          list-style-image: url(./images/arrow-circle-15.png); }
+  .offer__right {
+    flex: 1;
+    min-width: 500px;
+    background-color: #ececec; }
 

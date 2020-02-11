@@ -10,6 +10,7 @@
 <body>
     {{> partials/topnav }}
 
+    <!-- Head -->
     <div class="head">      
     </div>
     <div class="head__overlay">
@@ -23,6 +24,7 @@
         </div>
     </div>
 
+    <!-- Welcome -->
     <div class="welcome">
         <div class="welcome__content">
             <div class="welcome__content__left">
@@ -35,32 +37,43 @@
         </div>
     </div>
 
+    <!-- Classes -->
     <div class="classes">
         <div class="classes__header">
             <h2>Choose your class</h2>
             <span>Donec eros scelerisque feugiat neque eu bibendum volutpat fringilla venenatis</span>
         </div>
         <div class="classes__content">
-            <div class="classes__content__image classes__content__image__1"></div>
-            <div class="classes__content__text">
-                <h3>Pranayama Yoga</h3>
-                <span>Fusce sed maximus est, et viverra mauris. Phasellus a lorem ipsum dolor cursus elit. Praesent varius sem id felis scelerisque vehicula.</span>
+            <div class="classes__content__block">
+                <div class="classes__content__image classes__content__image__1"></div>
+                <div class="classes__content__text">
+                    <h3>Pranayama Yoga</h3>
+                    <span>Fusce sed maximus est, et viverra mauris. Phasellus a lorem ipsum dolor cursus elit. Praesent varius sem id felis scelerisque vehicula.</span>
+                </div>
             </div>
-            <div class="classes__content__image classes__content__image__2"></div>
-            <div class="classes__content__text">
-                <h3>Stretching</h3>
-                <span>Duis ornare, est at lorem ipsum – lobortis mollis, felis libero mollis orci, vitae congue neque lectus vel neque.</span>
+            <div class="classes__content__block">
+                <div class="classes__content__image classes__content__image__2"></div>
+                <div class="classes__content__text">
+                    <h3>Stretching</h3>
+                    <span>Duis ornare, est at lorem ipsum – lobortis mollis, felis libero mollis orci, vitae congue neque lectus vel neque.</span>
+                </div>
             </div>
-            <div class="classes__content__text">
-                <h3>Meditations</h3>
-                <span>Duis lobortis mollis, felis libero mollis ornare, est at lobortis mollis, felis libero mollis orci, vitae congue neque lectus vel neque.</span>
+        </div>
+        <div class="classes__content">
+            <div class="classes__content__block">
+                <div class="classes__content__text">
+                    <h3>Meditations</h3>
+                    <span>Duis lobortis mollis, felis libero mollis ornare, est at lobortis mollis, felis libero mollis orci, vitae congue neque lectus vel neque.</span>
+                </div>
+                <div class="classes__content__image classes__content__image__3"></div>
             </div>
-            <div class="classes__content__image classes__content__image__3"></div>
-            <div class="classes__content__text">
-                <h3>Pilates</h3>
-                <span>Duis ornare, est at lobortis mollis, felis vlibero mollis orci, vitae congue neque lectus vel neque.</span>
+            <div class="classes__content__block">
+                <div class="classes__content__text">
+                    <h3>Pilates</h3>
+                    <span>Duis ornare, est at lobortis mollis, felis vlibero mollis orci, vitae congue neque lectus vel neque.</span>
+                </div>
+                <div class="classes__content__image classes__content__image__4"></div>
             </div>
-            <div class="classes__content__image classes__content__image__4"></div>
         </div>
         <div class="classes__footer">
             <div class="button">
@@ -69,11 +82,13 @@
         </div>
     </div>
 
+    <!-- Timetable -->
     <div class="timetable">
         <div class="timetable__left">
             <div class="timetable__left__header">
                 <h2>Classes timetable</h2>
             </div>
+            <!-- Calendar -->
             <div class="calendar">
                 <div class="calendar__month">
                     <div class="calendar__month__corner">
@@ -167,12 +182,168 @@
 
         </div>
         <div class="timetable__right">
+        </div>
+    </div>
+    
+    <!-- Studio -->
+    <div class="studio">
+        <div class="studio__title">
+            <h1>Breathe. Grow. Live. In yoga.</h1>
+            <h3>Seven Yoga Studio</h3>
+        </div>
+    </div>
+
+    <!-- Teachers -->
+    <div class="teachers">
+        <div class="teachers__header">
+            <h2>Yoga teachers</h2>
+            <span>Donec eros scelerisque feugiat neque fringilla venenatis</span>
+        </div>
+        <div class="teachers__teachers">
+                <div class="teachers__teacher">
+                    <img src="./assets/images/py-003.jpg" alt="Natasha Green">
+                    <a href="#"><h4>Natasha Green</h4></a>
+                    <span>Hatha and Vinyasa Flow Yoga</span>
+                    <div class="teachers__teacher__social">
+                        <img src="./assets/images/fb_icon.svg" alt="Facebook">
+                        <img src="./assets/images/ig_icon.svg" alt="Instagram">
+                    </div>
+                </div>
+                    <div class="teachers__teacher">
+                        <img src="./assets/images/py-006.jpg" alt="Henry Richards">
+                        <a href="#"><h4>Henry Richards</h4></a>
+                        <span>Ashtanga Vinyasa, Traditional Hatha Yoga</span>
+                        <div class="teachers__teacher__social">
+                            <img src="./assets/images/fb_icon.svg" alt="Facebook">
+                            <img src="./assets/images/ig_icon.svg" alt="Instagram">
+                            <img src="./assets/images/in_icon.svg" alt="LinkedIn">
+                        </div>
+                </div>
+                    <div class="teachers__teacher">
+                        <img src="./assets/images/py-005.jpg" alt="Anna Whitebird">
+                        <a href="#"><h4>Anna Whitebird</h4></a>
+                        <span>Anna Whitebird</span>
+                        <div class="teachers__teacher__social">
+                            <img src="./assets/images/fb_icon.svg" alt="Facebook">
+                            <img src="./assets/images/ig_icon.svg" alt="Instagram">
+                            <img src="./assets/images/in_icon.svg" alt="LinkedIn">
+                        </div>
+                </div>
+                <div class="teachers__teacher">
+                    <img src="./assets/images/py-009.jpg" alt="Maria Brown">
+                    <a href="#"><h4>Maria Brown</h4></a>
+                    <span>Meditation and Pranayama Yoga</span>
+                    <div class="teachers__teacher__social">
+                        <img src="./assets/images/fb_icon.svg" alt="Facebook">
+                        <img src="./assets/images/ig_icon.svg" alt="Instagram">
+                    </div>
+                </div>
+        </div>
+        <div class="teachers__button">
+            <div class="button">
+                <a href="#">View all tachers</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Offer -->
+    <div class="offer">
+        <div class="offer__left">
+            <h3>What we offer</h3>
+            <span>Mauris quis nisi velit. Sed sed pharetra velit. Vestibulum venenatis est tortor, et ultricies ex viverra et. Praesent non venenatis erat. Duis et risus vitae quam lacinia finibus. Etiam auctor suscipit consequat. Morbi ac bibendum mauris. Curabitur ultrices purus ac neque suscipit eleifend. </span>
+            <div class="offer__left__list">
+                <div class="offer__left__list__half">
+                    <ul>
+                        <li>Cum sociis</li>
+                        <li>Class aptent taciti</li>
+                        <li>Proin eu dolor tempus</li>
+                    </ul>
+                </div>
+                <div class="offer__left__list__half">
+                    <ul>
+                        <li>Lorem ipsum dolor</li>
+                        <li>From nulla aptent taciti</li>
+                        <li>Dolor tempus glavrida</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="offer__right">
 
         </div>
-
     </div>
-    <div class="studio">
-        
+    <div class="gallery">
+        <div class="gallery__headder">
+            <h2>From our gallery</h2>
+            <span>Vestibulum in gravida erat. Pellentesque eu erat sed odio tempor dignissim fermentum non turpis. Curabitur eu massa id ex placerat interdum a non erat.</span>
+        </div>
+        <div class="gallery__content">
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y080.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y0009.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y086.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y091.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y007.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y052.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y051.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y028.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y022.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y078.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y082.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y011.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y048-900x900.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y025.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y0003.jpg" alt="Gallery Image">
+            </div>
+            <div class="gallery__content__image">
+                <div class="gallery__content__image__overlay"></div>
+                <img src="./assets/images/y004.jpg" alt="Gallery Image">
+            </div>
+        </div>
     </div>
+    
     </body>
 </html>

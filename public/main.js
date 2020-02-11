@@ -372,6 +372,42 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/assets/images/fb_icon.svg":
+/*!***************************************!*\
+  !*** ./src/assets/images/fb_icon.svg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/fb_icon.svg\");\n\n//# sourceURL=webpack:///./src/assets/images/fb_icon.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/ig_icon.svg":
+/*!***************************************!*\
+  !*** ./src/assets/images/ig_icon.svg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/ig_icon.svg\");\n\n//# sourceURL=webpack:///./src/assets/images/ig_icon.svg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/in_icon.svg":
+/*!***************************************!*\
+  !*** ./src/assets/images/in_icon.svg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/in_icon.svg\");\n\n//# sourceURL=webpack:///./src/assets/images/in_icon.svg?");
+
+/***/ }),
+
 /***/ "./src/assets/images/logo-main-small.webp":
 /*!************************************************!*\
   !*** ./src/assets/images/logo-main-small.webp ***!
@@ -381,6 +417,90 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/logo-main-small.webp\");\n\n//# sourceURL=webpack:///./src/assets/images/logo-main-small.webp?");
+
+/***/ }),
+
+/***/ "./src/assets/images/py-003.jpg":
+/*!**************************************!*\
+  !*** ./src/assets/images/py-003.jpg ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/py-003.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/py-003.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/py-005.jpg":
+/*!**************************************!*\
+  !*** ./src/assets/images/py-005.jpg ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/py-005.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/py-005.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/py-006.jpg":
+/*!**************************************!*\
+  !*** ./src/assets/images/py-006.jpg ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/py-006.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/py-006.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/py-009.jpg":
+/*!**************************************!*\
+  !*** ./src/assets/images/py-009.jpg ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/py-009.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/py-009.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/y0003.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/y0003.jpg ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y0003.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y0003.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/y0009.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/y0009.jpg ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y0009.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y0009.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/y004.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/y004.jpg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y004.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y004.jpg?");
 
 /***/ }),
 
@@ -396,6 +516,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/assets/images/y007.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/y007.jpg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y007.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y007.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/y011.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/y011.jpg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y011.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y011.jpg?");
+
+/***/ }),
+
 /***/ "./src/assets/images/y016-300X300.jpg":
 /*!********************************************!*\
   !*** ./src/assets/images/y016-300X300.jpg ***!
@@ -405,6 +549,54 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y016-300X300.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y016-300X300.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/y022.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/y022.jpg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y022.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y022.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/y025.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/y025.jpg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y025.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y025.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/y028.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/y028.jpg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y028.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y028.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/y048-900X900.jpg":
+/*!********************************************!*\
+  !*** ./src/assets/images/y048-900X900.jpg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y048-900X900.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y048-900X900.jpg?");
 
 /***/ }),
 
@@ -420,6 +612,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/assets/images/y051.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/y051.jpg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y051.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y051.jpg?");
+
+/***/ }),
+
 /***/ "./src/assets/images/y052-900X900.jpg":
 /*!********************************************!*\
   !*** ./src/assets/images/y052-900X900.jpg ***!
@@ -429,6 +633,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y052-900X900.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y052-900X900.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/y052.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/y052.jpg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y052.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y052.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/y078.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/y078.jpg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y078.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y078.jpg?");
 
 /***/ }),
 
@@ -444,6 +672,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/assets/images/y082.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/y082.jpg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y082.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y082.jpg?");
+
+/***/ }),
+
 /***/ "./src/assets/images/y086.jpg":
 /*!************************************!*\
   !*** ./src/assets/images/y086.jpg ***!
@@ -453,6 +693,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y086.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y086.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/images/y091.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/y091.jpg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./images/y091.jpg\");\n\n//# sourceURL=webpack:///./src/assets/images/y091.jpg?");
 
 /***/ }),
 
@@ -486,7 +738,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var Handlebars = __webpack_require__(/*! ../node_modules/handlebars/runtime.js */ \"./node_modules/handlebars/runtime.js\");\nfunction __default(obj) { return obj && (obj.__esModule ? obj[\"default\"] : obj); }\nmodule.exports = (Handlebars[\"default\"] || Handlebars).template({\"compiler\":[8,\">= 4.3.0\"],\"main\":function(container,depth0,helpers,partials,data) {\n    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {\n        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {\n          return parent[propertyName];\n        }\n        return undefined\n    };\n\n  return \"<!DOCTYPE html>\\r\\n<html>\\r\\n<head> \\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\\r\\n    <title>\"\n    + container.escapeExpression(container.lambda(((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,\"htmlWebpackPlugin\") : depth0)) != null ? lookupProperty(stack1,\"options\") : stack1)) != null ? lookupProperty(stack1,\"title\") : stack1), depth0))\n    + \" </title>\\r\\n    <link rel=\\\"stylesheet\\\" href=\\\"./assets/app.css\\\">\\r\\n</head>\\r\\n<body>\\r\\n\"\n    + ((stack1 = container.invokePartial(__webpack_require__(/*! ./partials/topnav.hbs */ \"./src/partials/topnav.hbs\"),depth0,{\"name\":\"partials/topnav\",\"data\":data,\"indent\":\"    \",\"helpers\":helpers,\"partials\":partials,\"decorators\":container.decorators})) != null ? stack1 : \"\")\n    + \"\\r\\n    <div class=\\\"head\\\">      \\r\\n    </div>\\r\\n    <div class=\\\"head__overlay\\\">\\r\\n        <div class=\\\"head__greeting\\\">\\r\\n            <h1>Relax. Breathe.</h1>\\r\\n            <h1>Be Mindful.</h1>\\r\\n            <span>A yoga class for every body, every style, every day.</span>\\r\\n                <div class=\\\"button\\\">\\r\\n                    <a href=\\\"#\\\">Welcome to Seven Yoga studio</a>\\r\\n                </div>  \\r\\n        </div>\\r\\n    </div>\\r\\n\\r\\n    <div class=\\\"welcome\\\">\\r\\n        <div class=\\\"welcome__content\\\">\\r\\n            <div class=\\\"welcome__content__left\\\">\\r\\n                <h1>Welcome To The7 Yoga Studio</h1>\\r\\n            </div>\\r\\n            <div class=\\\"welcome__content__right\\\">\\r\\n                <span>Ut egestas augue ac molestie pharetra. Sed porta dui quis imperdiet consectetur. Vivamus tincidunt, turpis non pulvinar scelerisque, nunc arcu blandit diam, ac convallis lectus sem in odio. Nulla tincidunt tincidunt sem, sit amet condimentum ex mollis rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi elit leo, malesuada sit amet pretium eget, tincidunt in sem. Vivamus purus dolor, auctor iaculis leo in, porta semper lorem. Nullam rhoncus euismod risus vel dignissim. Etiam sodales ante dui. Morbi pellentesque rutrum scelerisque. Sed auctor luctus nisl dignissim volutpat. Praesent in tortor hendrerit, interdum elit blandit, volutpat nibh. Cras rutrum est et velit semper sodales. Nam nec aliquet mauris.\\r\\n                </span>\\r\\n            </div>\\r\\n        </div>\\r\\n    </div>\\r\\n\\r\\n    <div class=\\\"classes\\\">\\r\\n        <div class=\\\"classes__header\\\">\\r\\n            <h2>Choose your class</h2>\\r\\n            <span>Donec eros scelerisque feugiat neque eu bibendum volutpat fringilla venenatis</span>\\r\\n        </div>\\r\\n        <div class=\\\"classes__content\\\">\\r\\n            <div class=\\\"classes__content__image classes__content__image__1\\\"></div>\\r\\n            <div class=\\\"classes__content__text\\\">\\r\\n                <h3>Pranayama Yoga</h3>\\r\\n                <span>Fusce sed maximus est, et viverra mauris. Phasellus a lorem ipsum dolor cursus elit. Praesent varius sem id felis scelerisque vehicula.</span>\\r\\n            </div>\\r\\n            <div class=\\\"classes__content__image classes__content__image__2\\\"></div>\\r\\n            <div class=\\\"classes__content__text\\\">\\r\\n                <h3>Stretching</h3>\\r\\n                <span>Duis ornare, est at lorem ipsum – lobortis mollis, felis libero mollis orci, vitae congue neque lectus vel neque.</span>\\r\\n            </div>\\r\\n            <div class=\\\"classes__content__text\\\">\\r\\n                <h3>Meditations</h3>\\r\\n                <span>Duis lobortis mollis, felis libero mollis ornare, est at lobortis mollis, felis libero mollis orci, vitae congue neque lectus vel neque.</span>\\r\\n            </div>\\r\\n            <div class=\\\"classes__content__image classes__content__image__3\\\"></div>\\r\\n            <div class=\\\"classes__content__text\\\">\\r\\n                <h3>Pilates</h3>\\r\\n                <span>Duis ornare, est at lobortis mollis, felis vlibero mollis orci, vitae congue neque lectus vel neque.</span>\\r\\n            </div>\\r\\n            <div class=\\\"classes__content__image classes__content__image__4\\\"></div>\\r\\n        </div>\\r\\n        <div class=\\\"classes__footer\\\">\\r\\n            <div class=\\\"button\\\">\\r\\n                    <a href=\\\"#\\\">About yoga classes</a>\\r\\n                </div>\\r\\n        </div>\\r\\n    </div>\\r\\n\\r\\n    <div class=\\\"timetable\\\">\\r\\n        <div class=\\\"timetable__left\\\">\\r\\n            <div class=\\\"timetable__left__header\\\">\\r\\n                <h2>Classes timetable</h2>\\r\\n            </div>\\r\\n            <div class=\\\"calendar\\\">\\r\\n                <div class=\\\"calendar__month\\\">\\r\\n                    <div class=\\\"calendar__month__corner\\\">\\r\\n                    <span>FEBRUARY ></span>\\r\\n                </div>\\r\\n                <h2>JANUARY 2020</h2>\\r\\n                <div class=\\\"calendar__table__head\\\">\\r\\n                    <div class=\\\"calendar__day__head\\\">MO</div>\\r\\n                    <div class=\\\"calendar__day__head\\\">TU</div>\\r\\n                    <div class=\\\"calendar__day__head\\\">WE</div>\\r\\n                    <div class=\\\"calendar__day__head\\\">TH</div>\\r\\n                    <div class=\\\"calendar__day__head\\\">FR</div>\\r\\n                    <div class=\\\"calendar__day__head\\\">SA</div>\\r\\n                    <div class=\\\"calendar__day__head\\\">SU</div>\\r\\n                </div>\\r\\n                <div class=\\\"calendar__table__row\\\">\\r\\n                    <div class=\\\"calendar__day__null\\\">30</div>\\r\\n                    <div class=\\\"calendar__day__null\\\">31</div>\\r\\n                    <div class=\\\"calendar__day\\\">1</div>\\r\\n                    <div class=\\\"calendar__day\\\">2</div>\\r\\n                    <div class=\\\"calendar__day\\\">3</div>\\r\\n                    <div class=\\\"calendar__day\\\">4</div>\\r\\n                    <div class=\\\"calendar__day\\\">5</div>\\r\\n                </div>\\r\\n                <div class=\\\"calendar__table__row\\\">\\r\\n                    <div class=\\\"calendar__day\\\">6</div>\\r\\n                    <div class=\\\"calendar__day\\\">7</div>\\r\\n                    <div class=\\\"calendar__day\\\">8</div>\\r\\n                    <div class=\\\"calendar__day\\\">9</div>\\r\\n                    <div class=\\\"calendar__day\\\">10</div>\\r\\n                    <div class=\\\"calendar__day\\\">11</div>\\r\\n                    <div class=\\\"calendar__day\\\">12</div>\\r\\n                </div>\\r\\n                <div class=\\\"calendar__table__row\\\">\\r\\n                    <div class=\\\"calendar__day\\\">13</div>\\r\\n                    <div class=\\\"calendar__day\\\">14</div>\\r\\n                    <div class=\\\"calendar__day\\\">15</div>\\r\\n                    <div class=\\\"calendar__day\\\">16</div>\\r\\n                    <div class=\\\"calendar__day\\\">17</div>\\r\\n                    <div class=\\\"calendar__day\\\">18</div>\\r\\n                    <div class=\\\"calendar__day\\\">19</div>\\r\\n                </div>\\r\\n                <div class=\\\"calendar__table__row\\\">\\r\\n                    <div class=\\\"calendar__day\\\">20</div>\\r\\n                    <div class=\\\"calendar__day\\\">21</div>\\r\\n                    <div class=\\\"calendar__day\\\">22</div>\\r\\n                    <div class=\\\"calendar__day\\\">23</div>\\r\\n                    <div class=\\\"calendar__day\\\">24</div>\\r\\n                    <div class=\\\"calendar__day\\\">25</div>\\r\\n                    <div class=\\\"calendar__day\\\">26</div>\\r\\n                </div>\\r\\n                <div class=\\\"calendar__table__row\\\">\\r\\n                    <div class=\\\"calendar__day__today\\\">27</div>\\r\\n                    <div class=\\\"calendar__day__event\\\">28</div>\\r\\n                    <div class=\\\"calendar__day__event\\\">29</div>\\r\\n                    <div class=\\\"calendar__day__event\\\">30</div>\\r\\n                    <div class=\\\"calendar__day__event\\\">31</div>\\r\\n                    <div class=\\\"calendar__day__null\\\">1</div>\\r\\n                    <div class=\\\"calendar__day__null\\\">2</div>\\r\\n                </div>\\r\\n\\r\\n\\r\\n\\r\\n                </div>\\r\\n                <div class=\\\"calendar__events\\\">\\r\\n                    <h6>EVENTS FOR JANUARY</h6>\\r\\n                    <h3>27th</h3>\\r\\n                    <div class=\\\"calendar__events__event\\\">\\r\\n                        <img src=\\\"./assets/images/y086.jpg\\\" alt=\\\"Ashtanga Yoga\\\">\\r\\n                        <div class=\\\"calendar__events__event__info\\\">\\r\\n                            <span>6:00 pm - 7:30 pm</span>\\r\\n                            <a href=\\\"#\\\">ASHTANGA YOGA</a>\\r\\n                        </div>\\r\\n                    </div>\\r\\n                    <div class=\\\"calendar__events__event\\\">\\r\\n                        <img src=\\\"./assets/images/y016-300X300.jpg\\\" alt=\\\"Ashtanga Yoga\\\">\\r\\n                        <div class=\\\"calendar__events__event__info\\\">\\r\\n                            <span>7:00 pm - 8:00 pm</span>\\r\\n                            <a href=\\\"#\\\">STRETCH YOGA</a>\\r\\n                        </div>\\r\\n                    </div>\\r\\n                    <div class=\\\"calendar__events__event\\\">\\r\\n                        <img src=\\\"./assets/images/y052-900X900.jpg\\\" alt=\\\"Ashtanga Yoga\\\">\\r\\n                        <div class=\\\"calendar__events__event__info\\\">\\r\\n                            <span>8:00 pm - 9:20 pm</span>\\r\\n                            <a href=\\\"#\\\">HOT PILATES</a>\\r\\n                        </div>\\r\\n                    </div>\\r\\n                </div>\\r\\n            </div>\\r\\n\\r\\n        </div>\\r\\n        <div class=\\\"timetable__right\\\">\\r\\n\\r\\n        </div>\\r\\n\\r\\n    </div>\\r\\n    <div class=\\\"studio\\\">\\r\\n        \\r\\n    </div>\\r\\n    </body>\\r\\n</html>\";\n},\"usePartial\":true,\"useData\":true});\n\n//# sourceURL=webpack:///./src/index.hbs?");
+eval("var Handlebars = __webpack_require__(/*! ../node_modules/handlebars/runtime.js */ \"./node_modules/handlebars/runtime.js\");\nfunction __default(obj) { return obj && (obj.__esModule ? obj[\"default\"] : obj); }\nmodule.exports = (Handlebars[\"default\"] || Handlebars).template({\"compiler\":[8,\">= 4.3.0\"],\"main\":function(container,depth0,helpers,partials,data) {\n    var stack1, lookupProperty = container.lookupProperty || function(parent, propertyName) {\n        if (Object.prototype.hasOwnProperty.call(parent, propertyName)) {\n          return parent[propertyName];\n        }\n        return undefined\n    };\n\n  return \"<!DOCTYPE html>\\r\\n<html>\\r\\n<head> \\r\\n    <meta charset=\\\"UTF-8\\\">\\r\\n    <meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\">\\r\\n    <meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\">\\r\\n    <title>\"\n    + container.escapeExpression(container.lambda(((stack1 = ((stack1 = (depth0 != null ? lookupProperty(depth0,\"htmlWebpackPlugin\") : depth0)) != null ? lookupProperty(stack1,\"options\") : stack1)) != null ? lookupProperty(stack1,\"title\") : stack1), depth0))\n    + \" </title>\\r\\n    <link rel=\\\"stylesheet\\\" href=\\\"./assets/app.css\\\">\\r\\n</head>\\r\\n<body>\\r\\n\"\n    + ((stack1 = container.invokePartial(__webpack_require__(/*! ./partials/topnav.hbs */ \"./src/partials/topnav.hbs\"),depth0,{\"name\":\"partials/topnav\",\"data\":data,\"indent\":\"    \",\"helpers\":helpers,\"partials\":partials,\"decorators\":container.decorators})) != null ? stack1 : \"\")\n    + \"\\r\\n    <!-- Head -->\\r\\n    <div class=\\\"head\\\">      \\r\\n    </div>\\r\\n    <div class=\\\"head__overlay\\\">\\r\\n        <div class=\\\"head__greeting\\\">\\r\\n            <h1>Relax. Breathe.</h1>\\r\\n            <h1>Be Mindful.</h1>\\r\\n            <span>A yoga class for every body, every style, every day.</span>\\r\\n                <div class=\\\"button\\\">\\r\\n                    <a href=\\\"#\\\">Welcome to Seven Yoga studio</a>\\r\\n                </div>  \\r\\n        </div>\\r\\n    </div>\\r\\n\\r\\n    <!-- Welcome -->\\r\\n    <div class=\\\"welcome\\\">\\r\\n        <div class=\\\"welcome__content\\\">\\r\\n            <div class=\\\"welcome__content__left\\\">\\r\\n                <h1>Welcome To The7 Yoga Studio</h1>\\r\\n            </div>\\r\\n            <div class=\\\"welcome__content__right\\\">\\r\\n                <span>Ut egestas augue ac molestie pharetra. Sed porta dui quis imperdiet consectetur. Vivamus tincidunt, turpis non pulvinar scelerisque, nunc arcu blandit diam, ac convallis lectus sem in odio. Nulla tincidunt tincidunt sem, sit amet condimentum ex mollis rutrum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi elit leo, malesuada sit amet pretium eget, tincidunt in sem. Vivamus purus dolor, auctor iaculis leo in, porta semper lorem. Nullam rhoncus euismod risus vel dignissim. Etiam sodales ante dui. Morbi pellentesque rutrum scelerisque. Sed auctor luctus nisl dignissim volutpat. Praesent in tortor hendrerit, interdum elit blandit, volutpat nibh. Cras rutrum est et velit semper sodales. Nam nec aliquet mauris.\\r\\n                </span>\\r\\n            </div>\\r\\n        </div>\\r\\n    </div>\\r\\n\\r\\n    <!-- Classes -->\\r\\n    <div class=\\\"classes\\\">\\r\\n        <div class=\\\"classes__header\\\">\\r\\n            <h2>Choose your class</h2>\\r\\n            <span>Donec eros scelerisque feugiat neque eu bibendum volutpat fringilla venenatis</span>\\r\\n        </div>\\r\\n        <div class=\\\"classes__content\\\">\\r\\n            <div class=\\\"classes__content__block\\\">\\r\\n                <div class=\\\"classes__content__image classes__content__image__1\\\"></div>\\r\\n                <div class=\\\"classes__content__text\\\">\\r\\n                    <h3>Pranayama Yoga</h3>\\r\\n                    <span>Fusce sed maximus est, et viverra mauris. Phasellus a lorem ipsum dolor cursus elit. Praesent varius sem id felis scelerisque vehicula.</span>\\r\\n                </div>\\r\\n            </div>\\r\\n            <div class=\\\"classes__content__block\\\">\\r\\n                <div class=\\\"classes__content__image classes__content__image__2\\\"></div>\\r\\n                <div class=\\\"classes__content__text\\\">\\r\\n                    <h3>Stretching</h3>\\r\\n                    <span>Duis ornare, est at lorem ipsum – lobortis mollis, felis libero mollis orci, vitae congue neque lectus vel neque.</span>\\r\\n                </div>\\r\\n            </div>\\r\\n        </div>\\r\\n        <div class=\\\"classes__content\\\">\\r\\n            <div class=\\\"classes__content__block\\\">\\r\\n                <div class=\\\"classes__content__text\\\">\\r\\n                    <h3>Meditations</h3>\\r\\n                    <span>Duis lobortis mollis, felis libero mollis ornare, est at lobortis mollis, felis libero mollis orci, vitae congue neque lectus vel neque.</span>\\r\\n                </div>\\r\\n                <div class=\\\"classes__content__image classes__content__image__3\\\"></div>\\r\\n            </div>\\r\\n            <div class=\\\"classes__content__block\\\">\\r\\n                <div class=\\\"classes__content__text\\\">\\r\\n                    <h3>Pilates</h3>\\r\\n                    <span>Duis ornare, est at lobortis mollis, felis vlibero mollis orci, vitae congue neque lectus vel neque.</span>\\r\\n                </div>\\r\\n                <div class=\\\"classes__content__image classes__content__image__4\\\"></div>\\r\\n            </div>\\r\\n        </div>\\r\\n        <div class=\\\"classes__footer\\\">\\r\\n            <div class=\\\"button\\\">\\r\\n                    <a href=\\\"#\\\">About yoga classes</a>\\r\\n                </div>\\r\\n        </div>\\r\\n    </div>\\r\\n\\r\\n    <!-- Timetable -->\\r\\n    <div class=\\\"timetable\\\">\\r\\n        <div class=\\\"timetable__left\\\">\\r\\n            <div class=\\\"timetable__left__header\\\">\\r\\n                <h2>Classes timetable</h2>\\r\\n            </div>\\r\\n            <!-- Calendar -->\\r\\n            <div class=\\\"calendar\\\">\\r\\n                <div class=\\\"calendar__month\\\">\\r\\n                    <div class=\\\"calendar__month__corner\\\">\\r\\n                    <span>FEBRUARY ></span>\\r\\n                </div>\\r\\n                <h2>JANUARY 2020</h2>\\r\\n                <div class=\\\"calendar__table__head\\\">\\r\\n                    <div class=\\\"calendar__day__head\\\">MO</div>\\r\\n                    <div class=\\\"calendar__day__head\\\">TU</div>\\r\\n                    <div class=\\\"calendar__day__head\\\">WE</div>\\r\\n                    <div class=\\\"calendar__day__head\\\">TH</div>\\r\\n                    <div class=\\\"calendar__day__head\\\">FR</div>\\r\\n                    <div class=\\\"calendar__day__head\\\">SA</div>\\r\\n                    <div class=\\\"calendar__day__head\\\">SU</div>\\r\\n                </div>\\r\\n                <div class=\\\"calendar__table__row\\\">\\r\\n                    <div class=\\\"calendar__day__null\\\">30</div>\\r\\n                    <div class=\\\"calendar__day__null\\\">31</div>\\r\\n                    <div class=\\\"calendar__day\\\">1</div>\\r\\n                    <div class=\\\"calendar__day\\\">2</div>\\r\\n                    <div class=\\\"calendar__day\\\">3</div>\\r\\n                    <div class=\\\"calendar__day\\\">4</div>\\r\\n                    <div class=\\\"calendar__day\\\">5</div>\\r\\n                </div>\\r\\n                <div class=\\\"calendar__table__row\\\">\\r\\n                    <div class=\\\"calendar__day\\\">6</div>\\r\\n                    <div class=\\\"calendar__day\\\">7</div>\\r\\n                    <div class=\\\"calendar__day\\\">8</div>\\r\\n                    <div class=\\\"calendar__day\\\">9</div>\\r\\n                    <div class=\\\"calendar__day\\\">10</div>\\r\\n                    <div class=\\\"calendar__day\\\">11</div>\\r\\n                    <div class=\\\"calendar__day\\\">12</div>\\r\\n                </div>\\r\\n                <div class=\\\"calendar__table__row\\\">\\r\\n                    <div class=\\\"calendar__day\\\">13</div>\\r\\n                    <div class=\\\"calendar__day\\\">14</div>\\r\\n                    <div class=\\\"calendar__day\\\">15</div>\\r\\n                    <div class=\\\"calendar__day\\\">16</div>\\r\\n                    <div class=\\\"calendar__day\\\">17</div>\\r\\n                    <div class=\\\"calendar__day\\\">18</div>\\r\\n                    <div class=\\\"calendar__day\\\">19</div>\\r\\n                </div>\\r\\n                <div class=\\\"calendar__table__row\\\">\\r\\n                    <div class=\\\"calendar__day\\\">20</div>\\r\\n                    <div class=\\\"calendar__day\\\">21</div>\\r\\n                    <div class=\\\"calendar__day\\\">22</div>\\r\\n                    <div class=\\\"calendar__day\\\">23</div>\\r\\n                    <div class=\\\"calendar__day\\\">24</div>\\r\\n                    <div class=\\\"calendar__day\\\">25</div>\\r\\n                    <div class=\\\"calendar__day\\\">26</div>\\r\\n                </div>\\r\\n                <div class=\\\"calendar__table__row\\\">\\r\\n                    <div class=\\\"calendar__day__today\\\">27</div>\\r\\n                    <div class=\\\"calendar__day__event\\\">28</div>\\r\\n                    <div class=\\\"calendar__day__event\\\">29</div>\\r\\n                    <div class=\\\"calendar__day__event\\\">30</div>\\r\\n                    <div class=\\\"calendar__day__event\\\">31</div>\\r\\n                    <div class=\\\"calendar__day__null\\\">1</div>\\r\\n                    <div class=\\\"calendar__day__null\\\">2</div>\\r\\n                </div>\\r\\n\\r\\n\\r\\n\\r\\n                </div>\\r\\n                <div class=\\\"calendar__events\\\">\\r\\n                    <h6>EVENTS FOR JANUARY</h6>\\r\\n                    <h3>27th</h3>\\r\\n                    <div class=\\\"calendar__events__event\\\">\\r\\n                        <img src=\\\"./assets/images/y086.jpg\\\" alt=\\\"Ashtanga Yoga\\\">\\r\\n                        <div class=\\\"calendar__events__event__info\\\">\\r\\n                            <span>6:00 pm - 7:30 pm</span>\\r\\n                            <a href=\\\"#\\\">ASHTANGA YOGA</a>\\r\\n                        </div>\\r\\n                    </div>\\r\\n                    <div class=\\\"calendar__events__event\\\">\\r\\n                        <img src=\\\"./assets/images/y016-300X300.jpg\\\" alt=\\\"Ashtanga Yoga\\\">\\r\\n                        <div class=\\\"calendar__events__event__info\\\">\\r\\n                            <span>7:00 pm - 8:00 pm</span>\\r\\n                            <a href=\\\"#\\\">STRETCH YOGA</a>\\r\\n                        </div>\\r\\n                    </div>\\r\\n                    <div class=\\\"calendar__events__event\\\">\\r\\n                        <img src=\\\"./assets/images/y052-900X900.jpg\\\" alt=\\\"Ashtanga Yoga\\\">\\r\\n                        <div class=\\\"calendar__events__event__info\\\">\\r\\n                            <span>8:00 pm - 9:20 pm</span>\\r\\n                            <a href=\\\"#\\\">HOT PILATES</a>\\r\\n                        </div>\\r\\n                    </div>\\r\\n                </div>\\r\\n            </div>\\r\\n\\r\\n        </div>\\r\\n        <div class=\\\"timetable__right\\\">\\r\\n        </div>\\r\\n    </div>\\r\\n    \\r\\n    <!-- Studio -->\\r\\n    <div class=\\\"studio\\\">\\r\\n        <div class=\\\"studio__title\\\">\\r\\n            <h1>Breathe. Grow. Live. In yoga.</h1>\\r\\n            <h3>Seven Yoga Studio</h3>\\r\\n        </div>\\r\\n    </div>\\r\\n\\r\\n    <!-- Teachers -->\\r\\n    <div class=\\\"teachers\\\">\\r\\n        <div class=\\\"teachers__header\\\">\\r\\n            <h2>Yoga teachers</h2>\\r\\n            <span>Donec eros scelerisque feugiat neque fringilla venenatis</span>\\r\\n        </div>\\r\\n        <div class=\\\"teachers__teachers\\\">\\r\\n                <div class=\\\"teachers__teacher\\\">\\r\\n                    <img src=\\\"./assets/images/py-003.jpg\\\" alt=\\\"Natasha Green\\\">\\r\\n                    <a href=\\\"#\\\"><h4>Natasha Green</h4></a>\\r\\n                    <span>Hatha and Vinyasa Flow Yoga</span>\\r\\n                    <div class=\\\"teachers__teacher__social\\\">\\r\\n                        <img src=\\\"./assets/images/fb_icon.svg\\\" alt=\\\"Facebook\\\">\\r\\n                        <img src=\\\"./assets/images/ig_icon.svg\\\" alt=\\\"Instagram\\\">\\r\\n                    </div>\\r\\n                </div>\\r\\n                    <div class=\\\"teachers__teacher\\\">\\r\\n                        <img src=\\\"./assets/images/py-006.jpg\\\" alt=\\\"Henry Richards\\\">\\r\\n                        <a href=\\\"#\\\"><h4>Henry Richards</h4></a>\\r\\n                        <span>Ashtanga Vinyasa, Traditional Hatha Yoga</span>\\r\\n                        <div class=\\\"teachers__teacher__social\\\">\\r\\n                            <img src=\\\"./assets/images/fb_icon.svg\\\" alt=\\\"Facebook\\\">\\r\\n                            <img src=\\\"./assets/images/ig_icon.svg\\\" alt=\\\"Instagram\\\">\\r\\n                            <img src=\\\"./assets/images/in_icon.svg\\\" alt=\\\"LinkedIn\\\">\\r\\n                        </div>\\r\\n                </div>\\r\\n                    <div class=\\\"teachers__teacher\\\">\\r\\n                        <img src=\\\"./assets/images/py-005.jpg\\\" alt=\\\"Anna Whitebird\\\">\\r\\n                        <a href=\\\"#\\\"><h4>Anna Whitebird</h4></a>\\r\\n                        <span>Anna Whitebird</span>\\r\\n                        <div class=\\\"teachers__teacher__social\\\">\\r\\n                            <img src=\\\"./assets/images/fb_icon.svg\\\" alt=\\\"Facebook\\\">\\r\\n                            <img src=\\\"./assets/images/ig_icon.svg\\\" alt=\\\"Instagram\\\">\\r\\n                            <img src=\\\"./assets/images/in_icon.svg\\\" alt=\\\"LinkedIn\\\">\\r\\n                        </div>\\r\\n                </div>\\r\\n                <div class=\\\"teachers__teacher\\\">\\r\\n                    <img src=\\\"./assets/images/py-009.jpg\\\" alt=\\\"Maria Brown\\\">\\r\\n                    <a href=\\\"#\\\"><h4>Maria Brown</h4></a>\\r\\n                    <span>Meditation and Pranayama Yoga</span>\\r\\n                    <div class=\\\"teachers__teacher__social\\\">\\r\\n                        <img src=\\\"./assets/images/fb_icon.svg\\\" alt=\\\"Facebook\\\">\\r\\n                        <img src=\\\"./assets/images/ig_icon.svg\\\" alt=\\\"Instagram\\\">\\r\\n                    </div>\\r\\n                </div>\\r\\n        </div>\\r\\n        <div class=\\\"teachers__button\\\">\\r\\n            <div class=\\\"button\\\">\\r\\n                <a href=\\\"#\\\">View all tachers</a>\\r\\n            </div>\\r\\n        </div>\\r\\n    </div>\\r\\n\\r\\n    <!-- Offer -->\\r\\n    <div class=\\\"offer\\\">\\r\\n        <div class=\\\"offer__left\\\">\\r\\n            <h3>What we offer</h3>\\r\\n            <span>Mauris quis nisi velit. Sed sed pharetra velit. Vestibulum venenatis est tortor, et ultricies ex viverra et. Praesent non venenatis erat. Duis et risus vitae quam lacinia finibus. Etiam auctor suscipit consequat. Morbi ac bibendum mauris. Curabitur ultrices purus ac neque suscipit eleifend. </span>\\r\\n            <div class=\\\"offer__left__list\\\">\\r\\n                <div class=\\\"offer__left__list__half\\\">\\r\\n                    <ul>\\r\\n                        <li>Cum sociis</li>\\r\\n                        <li>Class aptent taciti</li>\\r\\n                        <li>Proin eu dolor tempus</li>\\r\\n                    </ul>\\r\\n                </div>\\r\\n                <div class=\\\"offer__left__list__half\\\">\\r\\n                    <ul>\\r\\n                        <li>Lorem ipsum dolor</li>\\r\\n                        <li>From nulla aptent taciti</li>\\r\\n                        <li>Dolor tempus glavrida</li>\\r\\n                    </ul>\\r\\n                </div>\\r\\n            </div>\\r\\n        </div>\\r\\n        <div class=\\\"offer__right\\\">\\r\\n\\r\\n        </div>\\r\\n    </div>\\r\\n    <div class=\\\"gallery\\\">\\r\\n        <div class=\\\"gallery__headder\\\">\\r\\n            <h2>From our gallery</h2>\\r\\n            <span>Vestibulum in gravida erat. Pellentesque eu erat sed odio tempor dignissim fermentum non turpis. Curabitur eu massa id ex placerat interdum a non erat.</span>\\r\\n        </div>\\r\\n        <div class=\\\"gallery__content\\\">\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y080.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y0009.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y086.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y091.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y007.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y052.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y051.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y028.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y022.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y078.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y082.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y011.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y048-900x900.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y025.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y0003.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n            <div class=\\\"gallery__content__image\\\">\\r\\n                <div class=\\\"gallery__content__image__overlay\\\"></div>\\r\\n                <img src=\\\"./assets/images/y004.jpg\\\" alt=\\\"Gallery Image\\\">\\r\\n            </div>\\r\\n        </div>\\r\\n    </div>\\r\\n    \\r\\n    </body>\\r\\n</html>\";\n},\"usePartial\":true,\"useData\":true});\n\n//# sourceURL=webpack:///./src/index.hbs?");
 
 /***/ }),
 
@@ -498,7 +750,7 @@ eval("var Handlebars = __webpack_require__(/*! ../node_modules/handlebars/runtim
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/styles/app.scss */ \"./src/assets/styles/app.scss\");\n/* harmony import */ var _assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_hbs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.hbs */ \"./src/index.hbs\");\n/* harmony import */ var _index_hbs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_hbs__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _assets_images_logo_main_small_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/logo-main-small.webp */ \"./src/assets/images/logo-main-small.webp\");\n/* harmony import */ var _assets_images_art_home_yora_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/images/art-home-yora.jpg */ \"./src/assets/images/art-home-yora.jpg\");\n/* harmony import */ var _assets_images_y048_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/images/y048.jpg */ \"./src/assets/images/y048.jpg\");\n/* harmony import */ var _assets_images_y086_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/images/y086.jpg */ \"./src/assets/images/y086.jpg\");\n/* harmony import */ var _assets_images_y080_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/images/y080.jpg */ \"./src/assets/images/y080.jpg\");\n/* harmony import */ var _assets_images_y006_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/images/y006.jpg */ \"./src/assets/images/y006.jpg\");\n/* harmony import */ var _assets_images_y093_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/images/y093.jpg */ \"./src/assets/images/y093.jpg\");\n/* harmony import */ var _assets_images_y016_300X300_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/images/y016-300X300.jpg */ \"./src/assets/images/y016-300X300.jpg\");\n/* harmony import */ var _assets_images_y052_900X900_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/images/y052-900X900.jpg */ \"./src/assets/images/y052-900X900.jpg\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/styles/app.scss */ \"./src/assets/styles/app.scss\");\n/* harmony import */ var _assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_assets_styles_app_scss__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _index_hbs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.hbs */ \"./src/index.hbs\");\n/* harmony import */ var _index_hbs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_index_hbs__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _assets_images_logo_main_small_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/images/logo-main-small.webp */ \"./src/assets/images/logo-main-small.webp\");\n/* harmony import */ var _assets_images_art_home_yora_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/images/art-home-yora.jpg */ \"./src/assets/images/art-home-yora.jpg\");\n/* harmony import */ var _assets_images_y0003_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/images/y0003.jpg */ \"./src/assets/images/y0003.jpg\");\n/* harmony import */ var _assets_images_y004_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/images/y004.jpg */ \"./src/assets/images/y004.jpg\");\n/* harmony import */ var _assets_images_y006_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/images/y006.jpg */ \"./src/assets/images/y006.jpg\");\n/* harmony import */ var _assets_images_y007_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/images/y007.jpg */ \"./src/assets/images/y007.jpg\");\n/* harmony import */ var _assets_images_y0009_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/images/y0009.jpg */ \"./src/assets/images/y0009.jpg\");\n/* harmony import */ var _assets_images_y011_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/images/y011.jpg */ \"./src/assets/images/y011.jpg\");\n/* harmony import */ var _assets_images_y022_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/images/y022.jpg */ \"./src/assets/images/y022.jpg\");\n/* harmony import */ var _assets_images_y025_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/images/y025.jpg */ \"./src/assets/images/y025.jpg\");\n/* harmony import */ var _assets_images_y028_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./assets/images/y028.jpg */ \"./src/assets/images/y028.jpg\");\n/* harmony import */ var _assets_images_y048_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./assets/images/y048.jpg */ \"./src/assets/images/y048.jpg\");\n/* harmony import */ var _assets_images_y051_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./assets/images/y051.jpg */ \"./src/assets/images/y051.jpg\");\n/* harmony import */ var _assets_images_y052_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./assets/images/y052.jpg */ \"./src/assets/images/y052.jpg\");\n/* harmony import */ var _assets_images_y078_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./assets/images/y078.jpg */ \"./src/assets/images/y078.jpg\");\n/* harmony import */ var _assets_images_y080_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./assets/images/y080.jpg */ \"./src/assets/images/y080.jpg\");\n/* harmony import */ var _assets_images_y082_jpg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./assets/images/y082.jpg */ \"./src/assets/images/y082.jpg\");\n/* harmony import */ var _assets_images_y086_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./assets/images/y086.jpg */ \"./src/assets/images/y086.jpg\");\n/* harmony import */ var _assets_images_y091_jpg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./assets/images/y091.jpg */ \"./src/assets/images/y091.jpg\");\n/* harmony import */ var _assets_images_y093_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./assets/images/y093.jpg */ \"./src/assets/images/y093.jpg\");\n/* harmony import */ var _assets_images_y016_300X300_jpg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./assets/images/y016-300X300.jpg */ \"./src/assets/images/y016-300X300.jpg\");\n/* harmony import */ var _assets_images_y048_900X900_jpg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./assets/images/y048-900X900.jpg */ \"./src/assets/images/y048-900X900.jpg\");\n/* harmony import */ var _assets_images_y052_900X900_jpg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./assets/images/y052-900X900.jpg */ \"./src/assets/images/y052-900X900.jpg\");\n/* harmony import */ var _assets_images_py_003_jpg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./assets/images/py-003.jpg */ \"./src/assets/images/py-003.jpg\");\n/* harmony import */ var _assets_images_py_006_jpg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./assets/images/py-006.jpg */ \"./src/assets/images/py-006.jpg\");\n/* harmony import */ var _assets_images_py_005_jpg__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./assets/images/py-005.jpg */ \"./src/assets/images/py-005.jpg\");\n/* harmony import */ var _assets_images_py_009_jpg__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./assets/images/py-009.jpg */ \"./src/assets/images/py-009.jpg\");\n/* harmony import */ var _assets_images_fb_icon_svg__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./assets/images/fb_icon.svg */ \"./src/assets/images/fb_icon.svg\");\n/* harmony import */ var _assets_images_ig_icon_svg__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./assets/images/ig_icon.svg */ \"./src/assets/images/ig_icon.svg\");\n/* harmony import */ var _assets_images_in_icon_svg__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./assets/images/in_icon.svg */ \"./src/assets/images/in_icon.svg\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n// Teachers\r\n\r\n\r\n\r\n\r\n\r\n//Social icons\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
