@@ -4,6 +4,8 @@
 @import 'classes.scss';
 @import 'timetable.scss';
 @import 'gallery.scss';
+@import 'footer.scss';
+
 
 
 body {
@@ -44,6 +46,13 @@ span {
     font-family: 'Lato', sans-serif;
     font-size: 17px;
     line-height: 30px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    margin:0;
 }
 
 .head {

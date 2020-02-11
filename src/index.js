@@ -1,6 +1,7 @@
 import './assets/styles/app.scss';
 import './index.hbs';
 import './assets/images/logo-main-small.webp';
+import './assets/images/l-b-small.webp';
 import './assets/images/art-home-yora.jpg';
 import './assets/images/y0003.jpg';
 import './assets/images/y004.jpg';
@@ -34,6 +35,12 @@ import './assets/images/py-009.jpg';
 import './assets/images/fb_icon.svg';
 import './assets/images/ig_icon.svg';
 import './assets/images/in_icon.svg';
+import './assets/images/fb_fill.png';
+import './assets/images/twitter_fill.png';
+import './assets/images/ig_fill.png';
+import './assets/images/in_fill.png';
+
+
 
 
 

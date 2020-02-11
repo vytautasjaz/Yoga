@@ -1,0 +1,136 @@
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: $purple;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__top {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 95%;
+        margin:50px 20px 20px 20px;
+        &__column {
+            flex: 1;
+            padding: 10px;
+            min-width: 200px;
+                a {
+                    font-size: 17px;
+                    text-decoration: none;
+                    color: white;
+                    &:hover {
+                        color: $gray_1;
+                    }
+        }
+        p {
+            margin-top: 15px;
+        }
+        span {
+            font-size: 13px;
+            display: inline-block;
+            margin-bottom: 15px;
+            line-height: 20px;
+        }
+        h4 {
+            margin-bottom: 20px;
+        }
+        &__social {
+            margin-top: 20px;
+            img {
+                width:25px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        &__newsletter {
+            display: flex;
+            flex-direction: column;
+            &__input {
+                max-width: 250px;
+                border: 1px solid $gray_3;
+                border-left: 5px solid $gray_3;
+                padding: 13px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                font-size: 15px;
+                color: $gray_3;
+            }
+            &__button {
+                width: 120px;
+                background-color: $gray_3;
+                border: none;
+                color: white;
+                padding: 10px 15px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+            }
+        }
+        &__gallery {
+            display:flex;
+            flex-wrap: wrap;
+                &__image {
+                    width:33%;
+                    position: relative;
+                    display: inline-block;
+                    overflow: hidden;
+                    &:hover img {
+                        transition: all 2s ease-in-out;
+                        transform: scale(1.2); 
+                    }
+                    img {
+                        width: 100%;
+                        display: block;
+                        transition: all 2s ease-in-out;
+                        margin: 1px;
+                        margin-bottom: 0;
+                    }     
+                }
+                &__overlay {
+                    position: absolute;
+                    display: none;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: #000;
+                    z-index: 100;
+                    opacity: 0.5; 
+                }
+            }
+        }
+    }
+    &__bottom {
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        color: $purple_light_1;
+        border-top: 1px solid $purple_light_1;
+        span {
+            font-size: 13px;
+        }
+        &__left {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            img {
+                padding-right: 20px;
+            }
+        }
+        &__right {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+    }
+}
+
+.footer__top__column__gallery__image:hover .footer__top__column__gallery__overlay {
+    display: block;
+}
